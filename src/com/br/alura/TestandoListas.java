@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.concurrent.Callable;
 
-public class Main {
+public class TestandoListas {
 
     public static void main(String[] args) {
 

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b71a439-4258-4e30-aeca-37423990107f" name="Default Changelist" comment="" />
+    <list default="true" id="2b71a439-4258-4e30-aeca-37423990107f" name="Default Changelist" comment="Alterações da aula 4.">
+      <change afterPath="$PROJECT_DIR$/src/com/br/alura/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/br/alura/TestaAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/br/alura/TestaCurso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/br/alura/TestaCurso2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gerencimento-de-cursos/com/br/alura/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gerencimento-de-cursos/com/br/alura/TestaListaDeAulas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gerencimento-de-cursos/com/br/alura/TestaListaDeAulas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/br/alura/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/br/alura/TestandoListas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,20 +23,58 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Zqr0uOpsBtXGCGvKodvoiwvrTo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="RunManager" selected="Application.TestaListaDeAulas">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.br.alura.Main" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.br.alura" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestaAluno">
+    <configuration name="TestaAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.alura.TestaAluno" />
       <module name="gerencimento-de-cursos" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaCurso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.alura.TestaCurso" />
+      <module name="gerencimento-de-cursos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaCurso2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.alura.TestaCurso2" />
+      <module name="gerencimento-de-cursos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -45,14 +92,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestaPerformance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.alura.TestaPerformance" />
+      <module name="gerencimento-de-cursos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestaListaDeAulas" />
+      <item itemvalue="Application.TestaCurso" />
+      <item itemvalue="Application.TestaCurso2" />
+      <item itemvalue="Application.TestaAluno" />
+      <item itemvalue="Application.TestaPerformance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaAluno" />
+        <item itemvalue="Application.TestaPerformance" />
+        <item itemvalue="Application.TestaCurso2" />
+        <item itemvalue="Application.TestaCurso" />
         <item itemvalue="Application.TestaListaDeAulas" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -69,34 +135,69 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alterações da aula 4." />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterações da aula 4." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1585687943748">
+    <state x="180" y="20" key="#Getter_Template" timestamp="1585752550490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585687943748" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585688445885">
+    <state x="180" y="20" key="#Getter_Template/0.0.1366.728@0.0.1366.728" timestamp="1585752550490" />
+    <state x="180" y="20" key="#Setter_Template" timestamp="1585752558436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585688445885" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585688445884">
+    <state x="180" y="20" key="#Setter_Template/0.0.1366.728@0.0.1366.728" timestamp="1585752558436" />
+    <state x="393" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1586013125227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585688445884" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585688445884">
+    <state x="393" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586013125227" />
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1586206529837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585688445884" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585688445884">
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586206529837" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1586206638947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585688445884" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586206638947" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1586206638947">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586206638947" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1586206638947">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586206638947" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1586206638947">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586206638947" />
     <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1585602191827">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1585602191827" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585686615085">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586180763388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585686615085" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586180763388" />
+    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1585753444841">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1585753444841" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1585752830367">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585752830367" />
   </component>
 </project>
