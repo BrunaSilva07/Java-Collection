@@ -18,8 +18,20 @@ public class TestaCursoComAluno {
         javacolecoes.matricula(a3);
 
         System.out.println("Todos os alunos matriculados: ");
-        javacolecoes.getAlunos().forEach(a -> {
-            System.out.println(a);
-        });
+        javacolecoes.getAlunos().forEach(System.out::println);
+
+        System.out.println("O aluno " + a1 + " está matriculado?");
+        System.out.println(javacolecoes.estaMaticulado(a1));
+
+        Aluno a = new Aluno("Rodrigo Turini", 34672);
+        System.out.println("Esse aluno está matriculado?");
+        System.out.println(javacolecoes.estaMaticulado((a)));
+
+        System.out.println("O a1 é equals ao a?");
+        System.out.println(a1.equals(a));
+
+        // Obrigatoriamente o seguinte é true:
+
+        System.out.println(a1.hashCode() == a.hashCode());
     }
 }
